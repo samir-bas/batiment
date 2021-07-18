@@ -1,0 +1,7 @@
+{{ form_start(form) }}
+    {{ form_widget(form) }}
+    <div class="text-center">
+        <button class="btn col-2">{{ button_label|default('Enregistrer') }}</button>
+        <a class= "btn col-2" href="{{ path('project_index') }}">Retour</a>
+    </div>
+{{ form_end(form) }}
